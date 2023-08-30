@@ -1,0 +1,133 @@
+# 'EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.;
+
+SET UNDO_LOG OFF;
+# Take all libraries out of use
+USE -*;
+#
+# SHEET 1 - MIGRATE PARTS
+#
+EDIT .s1
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/LM3940.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/LM3940.lbr';
+REPLACE U$2 LM3940;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/LM3940.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/LM3940.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/RpiPico.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/RpiPico.lbr';
+REPLACE IC1 RP2040-QFN56;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/RpiPico.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/RpiPico.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/Switch.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/Switch.lbr';
+REPLACE S1 KSC222JLFS;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/Switch.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/Switch.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/USB_pcb_connectors.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/USB_pcb_connectors.lbr';
+REPLACE U$1 PCB_USB_CDS_3;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/USB_pcb_connectors.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/USB_pcb_connectors.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/W25Q128JVSIM.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/W25Q128JVSIM.lbr';
+REPLACE U1 W25Q128JVSIM;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/W25Q128JVSIM.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/W25Q128JVSIM.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/capacitor-wima.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/capacitor-wima.lbr';
+REPLACE C1 C2,5-3;
+REPLACE C2 C2,5-3;
+REPLACE C3 C2,5-3;
+REPLACE C4 C2,5-3;
+REPLACE C5 C2,5-3;
+REPLACE C6 C2,5-3;
+REPLACE C7 C2,5-3;
+REPLACE C8 C2,5-3;
+REPLACE C9 C2,5-3;
+REPLACE C10 C2,5-3;
+REPLACE C11 C2,5-3;
+REPLACE C12 C2,5-3;
+REPLACE C13 C2,5-3;
+REPLACE C14 C2,5-3;
+REPLACE C15 C2,5-3;
+REPLACE C16 C2,5-3;
+REPLACE C17 C2,5-3;
+REPLACE C18 C2,5-3;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/capacitor-wima.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/capacitor-wima.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/con-amp.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/con-amp.lbr';
+REPLACE J1 MTA10-100;
+REPLACE J2 MTA10-100;
+REPLACE J3 MTA10-100;
+REPLACE J4 MTA10-100;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/con-amp.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/con-amp.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/diode.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/diode.lbr';
+REPLACE D2 1N4148DO35-7;
+REPLACE D3 1N4148DO35-7;
+REPLACE D5 1N4148DO35-7;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/diode.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/diode.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/display-hp.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/display-hp.lbr';
+REPLACE D1 HLMP6;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/display-hp.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/display-hp.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/frames.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/frames.lbr';
+REPLACE FRAME1 A4L-LOC;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/frames.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/frames.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/rcl.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/rcl.lbr';
+REPLACE R1 R-EU_M0805;
+REPLACE R2 R-EU_M0805;
+REPLACE R3 R-EU_M0805;
+REPLACE R4 R-EU_M0805;
+REPLACE R5 R-EU_M0805;
+REPLACE R6 R-EU_M0805;
+REPLACE R7 R-EU_M0805;
+REPLACE R8 R-EU_M0805;
+REPLACE R9 R-EU_M0805;
+REPLACE R10 R-EU_M0805;
+REPLACE R11 R-EU_M0805;
+REPLACE R12 R-EU_M0805;
+REPLACE R13 R-EU_M0805;
+REPLACE R14 R-EU_M0805;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/rcl.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/rcl.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/special.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/special.lbr';
+REPLACE Q1 XTAL/S;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/special.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/special.lbr';
+# Migrate parts to 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/supply2.lbr'
+USE 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/supply2.lbr';
+REPLACE SUPPLY1 GND;
+REPLACE SUPPLY2 GND;
+REPLACE SUPPLY3 GND;
+REPLACE SUPPLY4 GND;
+REPLACE SUPPLY5 GND;
+REPLACE SUPPLY6 GND;
+REPLACE SUPPLY7 GND;
+REPLACE SUPPLY8 GND;
+REPLACE SUPPLY9 GND;
+REPLACE SUPPLY10 GND;
+REPLACE SUPPLY11 GND;
+REPLACE SUPPLY12 GND;
+REPLACE SUPPLY13 GND;
+REPLACE SUPPLY14 GND;
+REPLACE SUPPLY15 GND;
+REPLACE SUPPLY16 GND;
+REPLACE SUPPLY17 GND;
+REPLACE SUPPLY18 GND;
+REPLACE SUPPLY19 GND;
+REPLACE SUPPLY20 GND;
+REPLACE SUPPLY21 GND;
+# Take 'C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/supply2.lbr' out of use
+USE '-C:/users/mert/Documents/EAGLE/projects/Pico Clone/libraries/supply2.lbr';
+EDIT .s1
+SET UNDO_LOG ON;
+# Put all libraries back into use
+USE *;
